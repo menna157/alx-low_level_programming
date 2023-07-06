@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * move_past_stat - iterates past asterisk
+ * move_past_star - iterates past asterisk
  * @s2: the second string, can contain wildcard
  *
  * Return: the pointr past star
@@ -36,7 +36,8 @@ int inception(char *s1, char *s2)
 /**
  * wildcmp - compare two strings lexicographically
  * @s1: the first string
- * @s2: the second  string, can contain wildcard
+ * @s2: the second  string, can contain wildcardi
+ *
  * Return: 1 if identical, 0 if false
  */
 
