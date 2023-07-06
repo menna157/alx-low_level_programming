@@ -8,7 +8,7 @@
  */
 char *move_past_star(char *s2)
 {
-	if (*s2 == ***)
+	if (*s2 == '*')
 		return (move_past_star(s2 + 1));
 	else
 		return (s2);
@@ -16,7 +16,8 @@ char *move_past_star(char *s2)
 
 /**
  * inception - makes magic a reality
- * @s1: the first string, can contain wildcard
+ * @s1: the first string
+ * @s2: the second string, can contain wildcard
  *
  * Return: 1 if identical, 0 if false
  */
