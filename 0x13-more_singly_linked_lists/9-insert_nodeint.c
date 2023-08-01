@@ -2,11 +2,11 @@
 
 /**
  * insert_nodeint_at_index - inserts new node at given index
- * @head: adderss of pointer to first node
+ * @head: address of pointer to first node
  * @idx: index to insert new node
  * @n: n value of new node
  *
- * Return: adderss of new node
+ * Return: address of new node
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
