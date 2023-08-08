@@ -10,7 +10,7 @@ int _strlen(char *s)
 {
 	int i = 0;
 	
-	if (ls)
+	if (!s)
 		return (0);
 
 	while (*s++)
@@ -32,7 +32,7 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	if (!filename)
 		return (-1);
-	fd = open(filename, o_WRONLY | O_APPEND);
+	fd = open(filename, O_WRONLY | O_APPEND);
 	if (fd == -1)
 		return (-1);
 	if (len)
